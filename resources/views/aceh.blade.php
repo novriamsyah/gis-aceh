@@ -77,7 +77,7 @@
                 };
             },
             onEachFeature: function(feature, layer) {
-                    console.log(feature.properties.WADMKK);
+                    // console.log(feature.properties.WADMKK);
 
                     const iconLable = L.divIcon({
                           className: 'lable-icon',
